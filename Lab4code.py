@@ -1,6 +1,6 @@
-import array
+#Baseball lineup
 
-
+print(" Welcome to the Baseball Lineup Sorter!")
 print("input player 1's name")
 player1 = input()
 print("input player 2's name")
@@ -23,47 +23,40 @@ player9 = input()
 array1 = [player1, player2, player3, player4, player5, player6, player7, player8, player9]
 #print(array1)
 
+#batting averages
+ba1 = float(input("input player 1's batting average"))
+ba2 = float(input("input player 2's batting average"))
+ba3 = float(input("input player 3's batting average"))
+ba4 = float(input("input player 4's batting average"))
+ba5 = float(input("input player 5's batting average"))
+ba6 = float(input("input player 6's batting average"))
+ba7 = float(input("input player 7's batting average"))
+ba8 = float(input("input player 8's batting average"))
+ba9 = float(input("input player 9's batting average"))
 
-print("input player 1's batting average")
-ba1 = input(int())
-print("input player 2's batting average")
-ba2 = input(int())
-print("input player 3's batting average")
-ba3 = input(int())
-print("input player 4's batting average")
-ba4 = input(int())
-print("input player 5's batting average")
-ba5 = input(int())
-print("input player 6's batting average")
-ba6 = input(int())
-print("input player 7's batting average")
-ba7 = input(int())
-print("input player 8's batting average")
-ba8 = input(int())
-print("input player 9's batting average")
-ba9 = input(int())
-
-print("input player 1's position")
-po1 = input()
-print("input player 2's position")
-po2 = input()
-print("input player 3's position")
-po3 = input()
-print("input player 4's position")
-po4 = input()
-print("input player 5's position")
-po5 = input()
-print("input player 6's position")
-po6 = input()
-print("input player 7's position")
-po7 = input()
-print("input player 8's position")
-po8 = input()
-print("input player 9's position")
-po9 = input()
+#positions
+po1 = input("input player 1's position")
+po2 = input("input player 2's position")
+po3 = input("input player 3's position")
+po4 = input("input player 4's position")
+po5 = input("input player 5's position")
+po6 = input("input player 6's position")
+po7 = input("input player 7's position")
+po8 = input("input player 8's position")
+po9 = input("input player 9's position")
 
 
-array2 = [ba1 + ": " + player1 + ", " + po1, ba2 + ": " + player2 + ", " + po2, ba3 + ": " + player3 + ", " + po3, ba4 + ": " + player4 + ", " + po4, ba5 + ": " + player5 + ", " + po5, ba6 + ": " + player6 + ", " + po6, ba7 + ": " + player7 + ", " + po7, ba8 + ": " + player8 + ", " + po8, ba9 + ": " + player9 + ", " + po9]
+array2 = [
+    str(ba1) + ": " + player1 + ", " + po1,
+    str(ba2) + ": " + player2 + ", " + po2,
+    str(ba3) + ": " + player3 + ", " + po3,
+    str(ba4) + ": " + player4 + ", " + po4,
+    str(ba5) + ": " + player5 + ", " + po5,
+    str(ba6) + ": " + player6 + ", " + po6,
+    str(ba7) + ": " + player7 + ", " + po7,
+    str(ba8) + ": " + player8 + ", " + po8,
+    str(ba9) + ": " + player9 + ", " + po9
+]
 
 array2.sort(reverse = True)
 #print(array2)
